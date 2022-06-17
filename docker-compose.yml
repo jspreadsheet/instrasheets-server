@@ -42,7 +42,7 @@ services:
     web:
       build: ./resources/docker/aws
       ports:
-        - 8015:80
+        - 8009:80
       volumes:
         - .:/var/www/html
       links:
