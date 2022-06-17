@@ -1,0 +1,13 @@
+{
+  "name": "jspreadsheet-server",
+  "title": "JSS Server Application",
+  "description": "JSS server requires a license. Please visit https://jspreadsheet.com/products/server",
+  "main": "dist/index.js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "supervisor dist/index.js"
+  },
+  "dependencies": {
+    "@jspreadsheet/server": "1.0.2"
+  }
+}
